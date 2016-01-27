@@ -76,7 +76,7 @@ window.alert(myTweet.get('message'));
  */
 
 /* Listen for our model's `change` event: */
-myTweet.on('change',
+myTweet.on('change:',
   function(/* this event holds information about the change: */ e) {
     // Let ourselves know that something was changed:
     console.info('Something in this tweet model was changed!');
